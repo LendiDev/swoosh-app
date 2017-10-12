@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     
     override var prefersStatusBarHidden: Bool {
         return false
