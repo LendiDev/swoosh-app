@@ -10,6 +10,8 @@ import UIKit
 
 class SkillVC: UIViewController {
 
+    var player: Player!
+    
     override var prefersStatusBarHidden: Bool {
         return false
     }
@@ -20,6 +22,7 @@ class SkillVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        print(player.desiredLeague)
     }
 }
