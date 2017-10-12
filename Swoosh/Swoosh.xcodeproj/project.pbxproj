@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		FA0FFABE1F8F7F8E00BEAF5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FFABD1F8F7F8E00BEAF5E /* AppDelegate.swift */; };
-		FA0FFAC01F8F7F8E00BEAF5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FFABF1F8F7F8E00BEAF5E /* ViewController.swift */; };
+		FA0FFAC01F8F7F8E00BEAF5E /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FFABF1F8F7F8E00BEAF5E /* WelcomeVC.swift */; };
 		FA0FFAC31F8F7F8E00BEAF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0FFAC11F8F7F8E00BEAF5E /* Main.storyboard */; };
 		FA0FFAC51F8F7F8E00BEAF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0FFAC41F8F7F8E00BEAF5E /* Assets.xcassets */; };
 		FA0FFAC81F8F7F8E00BEAF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0FFAC61F8F7F8E00BEAF5E /* LaunchScreen.storyboard */; };
 		FA0FFAD11F8F844B00BEAF5E /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FFAD01F8F844B00BEAF5E /* BorderButton.swift */; };
 		FA0FFAD31F8F9B6B00BEAF5E /* RoundedViewIfIphoneX.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FFAD21F8F9B6B00BEAF5E /* RoundedViewIfIphoneX.swift */; };
+		FA0FFAD71F8FBC2D00BEAF5E /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FFAD61F8FBC2D00BEAF5E /* LeagueVC.swift */; };
+		FA0FFAD91F8FBC3E00BEAF5E /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FFAD81F8FBC3E00BEAF5E /* SkillVC.swift */; };
+		FA0FFADB1F8FC73500BEAF5E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FFADA1F8FC73500BEAF5E /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA0FFABA1F8F7F8E00BEAF5E /* Swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0FFABD1F8F7F8E00BEAF5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA0FFABF1F8F7F8E00BEAF5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA0FFABF1F8F7F8E00BEAF5E /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		FA0FFAC21F8F7F8E00BEAF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA0FFAC41F8F7F8E00BEAF5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA0FFAC71F8F7F8E00BEAF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA0FFAC91F8F7F8E00BEAF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA0FFAD01F8F844B00BEAF5E /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		FA0FFAD21F8F9B6B00BEAF5E /* RoundedViewIfIphoneX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViewIfIphoneX.swift; sourceTree = "<group>"; };
+		FA0FFAD61F8FBC2D00BEAF5E /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		FA0FFAD81F8FBC3E00BEAF5E /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		FA0FFADA1F8FC73500BEAF5E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,10 @@
 		FA0FFABC1F8F7F8E00BEAF5E /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				FA0FFACF1F8F842100BEAF5E /* Views */,
+				FA0FFAD51F8FBB2A00BEAF5E /* Model */,
+				FA0FFACF1F8F842100BEAF5E /* View */,
+				FA0FFAD41F8FBB1F00BEAF5E /* Controller */,
 				FA0FFABD1F8F7F8E00BEAF5E /* AppDelegate.swift */,
-				FA0FFABF1F8F7F8E00BEAF5E /* ViewController.swift */,
 				FA0FFAC11F8F7F8E00BEAF5E /* Main.storyboard */,
 				FA0FFAC41F8F7F8E00BEAF5E /* Assets.xcassets */,
 				FA0FFAC61F8F7F8E00BEAF5E /* LaunchScreen.storyboard */,
@@ -69,13 +76,31 @@
 			path = Swoosh;
 			sourceTree = "<group>";
 		};
-		FA0FFACF1F8F842100BEAF5E /* Views */ = {
+		FA0FFACF1F8F842100BEAF5E /* View */ = {
 			isa = PBXGroup;
 			children = (
 				FA0FFAD01F8F844B00BEAF5E /* BorderButton.swift */,
 				FA0FFAD21F8F9B6B00BEAF5E /* RoundedViewIfIphoneX.swift */,
 			);
-			path = Views;
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA0FFAD41F8FBB1F00BEAF5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA0FFABF1F8F7F8E00BEAF5E /* WelcomeVC.swift */,
+				FA0FFAD61F8FBC2D00BEAF5E /* LeagueVC.swift */,
+				FA0FFAD81F8FBC3E00BEAF5E /* SkillVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA0FFAD51F8FBB2A00BEAF5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA0FFADA1F8FC73500BEAF5E /* Player.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0FFAD71F8FBC2D00BEAF5E /* LeagueVC.swift in Sources */,
 				FA0FFAD31F8F9B6B00BEAF5E /* RoundedViewIfIphoneX.swift in Sources */,
-				FA0FFAC01F8F7F8E00BEAF5E /* ViewController.swift in Sources */,
+				FA0FFAC01F8F7F8E00BEAF5E /* WelcomeVC.swift in Sources */,
 				FA0FFABE1F8F7F8E00BEAF5E /* AppDelegate.swift in Sources */,
+				FA0FFADB1F8FC73500BEAF5E /* Player.swift in Sources */,
+				FA0FFAD91F8FBC3E00BEAF5E /* SkillVC.swift in Sources */,
 				FA0FFAD11F8F844B00BEAF5E /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,11 +319,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8YQUKV83J3;
+				DEVELOPMENT_TEAM = JCMW9L7C7Y;
 				INFOPLIST_FILE = Swoosh/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lendi.Swoosh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lendidev.Swooshhh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,11 +335,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8YQUKV83J3;
+				DEVELOPMENT_TEAM = JCMW9L7C7Y;
 				INFOPLIST_FILE = Swoosh/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lendi.Swoosh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lendidev.Swooshhh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
