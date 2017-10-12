@@ -13,6 +13,7 @@
 		FA0FFAC51F8F7F8E00BEAF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0FFAC41F8F7F8E00BEAF5E /* Assets.xcassets */; };
 		FA0FFAC81F8F7F8E00BEAF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0FFAC61F8F7F8E00BEAF5E /* LaunchScreen.storyboard */; };
 		FA0FFAD11F8F844B00BEAF5E /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FFAD01F8F844B00BEAF5E /* BorderButton.swift */; };
+		FA0FFAD31F8F9B6B00BEAF5E /* RoundedViewIfIphoneX.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FFAD21F8F9B6B00BEAF5E /* RoundedViewIfIphoneX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA0FFAC71F8F7F8E00BEAF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA0FFAC91F8F7F8E00BEAF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA0FFAD01F8F844B00BEAF5E /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		FA0FFAD21F8F9B6B00BEAF5E /* RoundedViewIfIphoneX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViewIfIphoneX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				FA0FFAD01F8F844B00BEAF5E /* BorderButton.swift */,
+				FA0FFAD21F8F9B6B00BEAF5E /* RoundedViewIfIphoneX.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0FFAD31F8F9B6B00BEAF5E /* RoundedViewIfIphoneX.swift in Sources */,
 				FA0FFAC01F8F7F8E00BEAF5E /* ViewController.swift in Sources */,
 				FA0FFABE1F8F7F8E00BEAF5E /* AppDelegate.swift in Sources */,
 				FA0FFAD11F8F844B00BEAF5E /* BorderButton.swift in Sources */,
