@@ -192,7 +192,7 @@
                                             </constraint>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desired Legue:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBt-JV-8l7">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desired League:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBt-JV-8l7">
                                         <rect key="frame" x="62.5" y="40" width="250" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="0NP-d9-u7G">
@@ -248,8 +248,11 @@
                                                 <include reference="DaU-VH-BPp"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="selectionHandlerWithSender:" destination="A9P-ZE-Mda" eventType="touchUpInside" id="tFv-QX-I5z"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwH-bH-If9" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwH-bH-If9" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="80" width="345" height="60"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.45000000000000001" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -281,8 +284,11 @@
                                                 <include reference="byX-lS-B3B"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="selectionHandlerWithSender:" destination="A9P-ZE-Mda" eventType="touchUpInside" id="mGc-Hv-6Gz"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZn-sa-yg7" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZn-sa-yg7" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="160" width="345" height="60"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.45000000000000001" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -314,10 +320,13 @@
                                                 <include reference="Fac-1r-pyW"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="selectionHandlerWithSender:" destination="A9P-ZE-Mda" eventType="touchUpInside" id="eST-UW-r1C"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhT-Of-5Ck" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhT-Of-5Ck" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
                                 <rect key="frame" x="15" y="587" width="345" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.45000000000000001" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -408,6 +417,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="nextBtn" destination="mhT-Of-5Ck" id="9LR-Zb-IEm"/>
                         <segue destination="S88-Ls-6Vp" kind="show" identifier="skillVCSegue" id="omJ-HJ-K4o"/>
                     </connections>
                 </viewController>
