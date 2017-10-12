@@ -350,7 +350,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <segue destination="S88-Ls-6Vp" kind="show" id="VCO-Pf-ga0"/>
+                                    <action selector="onNextTappedWithSender:" destination="A9P-ZE-Mda" eventType="touchUpInside" id="FMx-qU-cca"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74k-tX-x1W">
@@ -407,6 +407,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <segue destination="S88-Ls-6Vp" kind="show" identifier="skillVCSegue" id="omJ-HJ-K4o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mwp-gU-cLX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="nWv-af-c8X" userLabel="Exit" sceneMemberID="exit"/>
